@@ -39,21 +39,21 @@ const Navigation = ({ openRoomNav }) => {
     return (
         <Nav>
             <ButtonContainer active={ true }>
-                    <a href="#">
+                    <a href="/#">
                         <AiFillHome size='100%' />
                     </a>
             </ButtonContainer>
 
 
             <ButtonContainer device='mobile' onClick={ openRoomNav }>
-                <a href='#'>
+                <a href='/#'>
                     <AiFillWechat size='100%' />
                 </a>
             </ButtonContainer>
     
 
             <ButtonContainer onClick={ leaveClickHandler }>
-                    <a href="#">
+                    <a href="/#">
                         <GiExitDoor size='100%' />
                     </a>
             </ButtonContainer>

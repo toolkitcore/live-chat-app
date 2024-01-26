@@ -27,7 +27,7 @@ const SearchRooms = ({ query, setQuery }) => {
             <input type="text" placeholder='Search' value={ query } onChange={(e) => setQuery(e.target.value) } />
             
             <ButtonContainer padding="0" active={ true } size="3em" borderRadius="1.1em">
-                <a href='#'>
+                <a href='/#'>
                     <BiReset fill='#fff' size={ '1.5em' }></BiReset>
                 </a>
             </ButtonContainer>
